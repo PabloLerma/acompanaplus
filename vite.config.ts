@@ -5,10 +5,8 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => {
-  const isPages = process.env.GH_PAGES === "true"; // set only for prod builds
-
   return {
-    base: isPages ? "/acompanaplus/" : "/",   // root locally, subpath in prod
+    base: "/",
     server: {
       host: "::",
       port: 8080,
