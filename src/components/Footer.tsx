@@ -7,7 +7,7 @@ const Footer = () => {
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
               <div className="bg-sage-green p-2 rounded-lg">
-                <img src="/lovable-uploads/5afb70f4-1bd4-4bb9-8c4e-b68ebd49a30f.png" alt="Acompaña+ Logo" className="h-6 w-6" />
+                <img src={`${import.meta.env.BASE_URL}lovable-uploads/5afb70f4-1bd4-4bb9-8c4e-b68ebd49a30f.png`} alt="Acompaña+ Logo" className="h-6 w-6" />
               </div>
               <div>
                 <h3 className="text-xl font-bold">Acompaña+</h3>

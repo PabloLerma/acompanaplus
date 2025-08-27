@@ -6,35 +6,35 @@ import Autoplay from "embla-carousel-autoplay";
 const ServicesSection = () => {
   const carouselImages = [
     {
-      src: "/lovable-uploads/208c4736-66b5-4b06-93d0-8482378eb88e.png",
+      src: `${import.meta.env.BASE_URL}lovable-uploads/208c4736-66b5-4b06-93d0-8482378eb88e.png`,
       alt: "Cuidado personal y bienestar"
     },
     {
-      src: "/lovable-uploads/475b53f1-4268-4bac-95f9-ae1cb65d16e3.png",
+      src: `${import.meta.env.BASE_URL}lovable-uploads/475b53f1-4268-4bac-95f9-ae1cb65d16e3.png`,
       alt: "Acompañamiento en compras"
     },
     {
-      src: "/lovable-uploads/3b3bef4f-b2af-4289-8975-7d9ffe88ea58.png",
+      src: `${import.meta.env.BASE_URL}lovable-uploads/3b3bef4f-b2af-4289-8975-7d9ffe88ea58.png`,
       alt: "Cuidado profesional"
     },
     {
-      src: "/lovable-uploads/3ee9c28d-7b13-4182-a018-af653cec03a9.png",
+      src: `${import.meta.env.BASE_URL}lovable-uploads/3ee9c28d-7b13-4182-a018-af653cec03a9.png`,
       alt: "Acompañamiento en paseos"
     },
     {
-      src: "/lovable-uploads/2a5d91c7-d1a2-4e58-a372-e81b4d40f5dd.png",
+      src: `${import.meta.env.BASE_URL}lovable-uploads/2a5d91c7-d1a2-4e58-a372-e81b4d40f5dd.png`,
       alt: "Cuidados especializados"
     },
     {
-      src: "/lovable-uploads/ad9dc903-b55c-4358-aa4d-6d32e32aab25.png",
+      src: `${import.meta.env.BASE_URL}lovable-uploads/ad9dc903-b55c-4358-aa4d-6d32e32aab25.png`,
       alt: "Actividades físicas"
     },
     {
-      src: "/lovable-uploads/9c837da3-2d38-4e19-8eb4-ca0cef001de1.png",
+      src: `${import.meta.env.BASE_URL}lovable-uploads/9c837da3-2d38-4e19-8eb4-ca0cef001de1.png`,
       alt: "Trabajo en equipo"
     },
     {
-      src: "/lovable-uploads/68273a74-ae88-487a-85a6-2d1d561fb55b.png",
+      src: `${import.meta.env.BASE_URL}lovable-uploads/68273a74-ae88-487a-85a6-2d1d561fb55b.png`,
       alt: "Reuniones familiares"
     }
   ];

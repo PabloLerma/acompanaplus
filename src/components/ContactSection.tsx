@@ -68,7 +68,7 @@ ${formData.nombre}
             <div 
               className="absolute inset-0 rounded-2xl bg-cover bg-center bg-no-repeat opacity-10"
               style={{
-                backgroundImage: "url('/lovable-uploads/bc2ded1e-a8d0-49f8-9a34-2e439b84b410.png')"
+                backgroundImage: `url(${import.meta.env.BASE_URL}lovable-uploads/bc2ded1e-a8d0-49f8-9a34-2e439b84b410.png)`
               }}
             />
             <div>

@@ -24,7 +24,7 @@ const Navigation = () => {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <div className="flex items-center">
-            <img alt="Acompaña+ Logo" className="h-16 w-auto mix-blend-multiply" src="/lovable-uploads/80ce3a64-d893-42ab-9518-ff46b6d52c82.png" />
+            <img alt="Acompaña+ Logo" className="h-16 w-auto mix-blend-multiply" src={`${import.meta.env.BASE_URL}lovable-uploads/80ce3a64-d893-42ab-9518-ff46b6d52c82.png`} />
           </div>
 
           {/* Desktop Navigation */}
