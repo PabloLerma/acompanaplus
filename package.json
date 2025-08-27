@@ -8,8 +8,10 @@
     "dev": "vite",
     "build": "vite build",
     "build:dev": "vite build --mode development",
+    "build:prod": "GH_PAGES=true vite build && cp dist/index.html dist/404.html",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "preview:prod": "GH_PAGES=true vite build && vite preview --base=/acompanaplus/"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.9.0",
